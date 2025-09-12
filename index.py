@@ -1,3 +1,6 @@
+## Thank to @gabigb117 de Docstring
+## Chat with Streamlit - Sept. 11, 2025
+
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 from datetime import datetime
