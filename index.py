@@ -25,7 +25,7 @@ if "username" not in st.session_state:
 
 
 if not st.session_state.username:
-    username_input = st.text_input("Entrez votre pseudo : "), placeholder="Hello from Docstring...", icon=":material/thumb_up:")
+    username_input = st.text_input("Entrez votre pseudo : ", placeholder="Hello from Docstring...", icon=":material/thumb_up:")
         
     
 # Original code: if st.button("Rejoindre") and username_input:
