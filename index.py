@@ -35,7 +35,7 @@ if not st.session_state.username:
         messages.append(
             {
                 "author": "Système",
-                "text": f"{username_input} - a rejoint !",
+                "text": f" 🚨 {username_input} - a rejoint !",
                 "time": datetime.now().strftime("%H:%M:%S")
             }
         )
