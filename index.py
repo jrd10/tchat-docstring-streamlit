@@ -47,7 +47,7 @@ else:
         with st.chat_message(msg["author"]):
             st.markdown(f"*{msg["time"]}* - {msg["text"]}")
     
-    input_chat = st.chat_input("Message...", icon="🚨")
+    input_chat = st.chat_input("👉 Message...")
     if input_chat:
         messages.append({
             "author": st.session_state.username,
