@@ -30,7 +30,7 @@ if not st.session_state.username:
     
 # Original code: if st.button("Rejoindre") and username_input:
 # Enter key not activate, only the button    
-    if st.button("Rejoindre") or username_input:
+    if st.button("Touche Entrée ou ce bouton pour nous rejoindre :).") or username_input:
         st.session_state.username = username_input
         messages.append(
             {
