@@ -20,6 +20,9 @@ st_autorefresh(interval=2000, limit=None, key="chat", debounce=True)
 st.title("My first chat appli with Streamlit")
 st.text("With the Gabigab117's contribution")
 
+## Accéder au déploiement de ce code sur Streamlit
+st.link_button("Au code sur Github", "https://github.com/jrd10/tchat-docstring-streamlit/blob/main/index.py")
+
 if "username" not in st.session_state:
     st.session_state.username = ""
 
